@@ -1,0 +1,355 @@
+body{
+  width: 1000px;
+  font-family: georgia;
+  margin: 0 auto;
+}
+
+/*Inicio: Estilos del Header*/
+
+header{
+  border-top: 5px solid #7e5c88;
+  margin-bottom: 55px;
+  padding: 0 20px;
+}
+header hgroup{
+  width: 176px;
+  float: left;
+}
+header hgroup h2{
+  font-size: 40px;
+  color: #7e5c88;
+  margin: 42px 0 14px 0; 
+}
+header hgroup h3{
+  font-size: 12px;
+  color: #979797;
+}
+header nav{
+  float: right;
+}
+header nav a{
+  color: #979797;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 52px 20px 33px 20px;
+  display: inline-block;
+}
+/*El hover es poner propiedades osea colores cuando se pasa el mouse encima del elemento, ejemplo en menú cuando se pasa mouse se ve de diferente color*/
+header nav a:hover {
+  background: #7e5c88;
+  color: #fff;
+}
+
+/*Fin: Estilos del Header*/
+
+
+/*Inicio:Seccion Banner*/
+
+#banner {
+  margin-bottom: 60px;
+  padding: 0 20px;
+}
+#banner .image-caption{
+  width: 310px;
+  float: left;
+  margin-top: 97px;
+}
+
+#banner .image-caption h1{
+  font-size: 46px;
+  margin-bottom: 27px;
+}
+
+#banner .image-caption p{
+  color: #979797;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+#banner .image-caption a{
+  width: 140px;
+  height: 35px;
+  background-color: #7e5c88;
+  color:#ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 12px 16px;
+}
+#bannerImg{
+  width: 330px;
+  height: 330px;
+  background-image: url(../img/foto1.png);
+  border-radius: 190px;
+  border: 25px solid #7e5c88;
+  float: right;
+}
+/*Fin:Seccion Banner*/
+
+/*Inicio:Seccion works*/
+
+#works{
+  padding: 0 20px;
+}
+
+#works .projectDiv{
+  float: left;
+  margin-right: 20px;
+}
+
+#works .last{
+  margin-right: 0px;
+  margin-bottom: 59px;
+}
+#works h2{
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#works .projectDiv h3{
+  color: #333333;
+  background: #eee;
+  font-size: 12px;
+  width: 225px;
+  padding: 13px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#works .projectDiv h4{
+  color: #979797;
+  background: #eee;
+  font-size: 12px;
+  width: 225px;
+  padding: 13px 0px;
+  text-align: center;
+}
+
+#works .projectDiv:hover h3, #works .projectDiv:hover h4{
+  background: #7e5c88;
+  color: #fff;
+}
+
+/*Fin:Seccion works*/
+
+/*Inicio:Seccion blog*/
+
+#blog {
+  width: 715px;
+  float: left;
+  padding: 0 20px;
+}
+
+#blog h2{
+  margin-bottom: 15px;
+  color: #333333;
+  width: 107px;
+}
+
+#blog .blogEntry{
+  width: 225px;
+  font-size: 12px;
+  color: #979797;
+  float: left;
+  margin-right: 20px;
+}
+#blog .last{
+  margin-right: 0px;
+  margin-bottom: 49px;
+}
+
+#blog .blogEntry h3{
+  font-size: 14px;
+  color: #7e5c88;
+  margin: 20px 0 10px 0;
+}
+
+#blog .blogEntry h4{
+  margin: 0 0 16px 0;
+}
+
+#blog .blogEntry p{
+  line-height: 17px;
+  width: 220px;
+}
+
+/*Fin:Seccion blog*/
+
+/*Incio:Seccion About*/
+
+#about{
+  width: 225px;
+  float: left;
+  margin-left: 20px;
+}
+
+#about h2{
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+#about .imagen{
+  width: 60px;
+  float: left;
+  margin: 0 8px 31px 0;
+}
+
+#about .bloqueAbout{
+  width: 132px;
+  float: left;
+}
+#about h3 {
+  font-size: 12px;
+  color: #979797;
+  font-weight:bold;
+  line-height: 17px;
+}
+#about p{
+  font-size: 12px;
+  color: #979797;
+  line-height: 17px;
+}
+#about a{
+  font-size: 12px;
+  color: #7e5c88;
+  text-decoration: none;
+}
+/*Fin:Seccion About*/
+
+/*Inicio: footer*/
+
+#footer{
+  float: left;
+  font-size: 12px;
+  color: #979797;
+}
+
+#footer .footer1{
+  float: left;
+  width: 221px;
+  margin-right: 25px;
+  color: #979797;
+  padding: 0 20px;
+}
+#footer hgroup h2{
+  margin-bottom: 41px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#footer hgroup h3{
+  line-height: 21px;
+  font-size: 13px;
+}
+#footer hgroup h4{
+  line-height: 29px;
+  font-size: 11px;
+}
+#footer hgroup{
+  margin-bottom: 18px;
+}
+#footer .footer1 p{
+  width: 221px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+#footer .footer1 a{
+  color: #7e5b87;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+  width: 220px;
+}
+
+#footer .footer2{
+  float: left;
+  width: 225px;
+  margin-right: 20px;
+}
+#footer .footer2 h2{
+  margin-bottom: 38px;
+  font-weight: bold;
+}
+#footer .footer2 ul li{
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#footer .footer2 ul li a{
+  text-decoration: none;
+  color: #7e5b87;
+}
+
+#footer .footer3{
+  float: left;
+  width: 225px;
+  margin-right: 20px;
+}
+#footer .footer3 h2{
+  margin-bottom: 41px;
+  font-weight: bold;
+}
+#footer .footer3 pre{
+  line-height: 15px;
+  margin-bottom: 12px;
+}
+
+#footer .footer4{
+  float: left;
+  width: 210px;
+  margin-bottom: 50px;
+}
+#footer .footer4 h2{
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+#footer .footer4 ul li{
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#footer .footer4 ul li span{
+  width: 15px;
+  height: 15px;
+  border-radius: 18px;
+  background: #c3c3c3;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin-right: 10px;
+}
+#footer .footer4 ul li a{
+  text-decoration: none;
+  color: #7e5b87;
+}
+
+#footer .derechos1{
+  float: left;
+  margin-left: 20px;
+}
+
+#footer .derechos2{
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+/*Fin: footer*/
+
+
+/*Inicio:Estilos generales*/
+.clearFix {
+  clear: both;
+}
+
+.linea{
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 50px;
+}
+.lineaFooter{
+ border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px; 
+}
+/*Fin: Estilos generales*/
